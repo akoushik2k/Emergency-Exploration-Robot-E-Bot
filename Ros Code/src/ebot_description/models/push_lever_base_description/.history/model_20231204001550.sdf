@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+
+<sdf version='1.7'>
+  <model name='pushlever_description'>
+    <link name='base_link'>
+      <inertial>
+        <pose>-0.057285 -3e-05 0.89241 0 -0 0</pose>
+        <mass>639.68</mass>
+        <inertia>
+          <ixx>234.01</ixx>
+          <ixy>0.00092007</ixy>
+          <ixz>-5.4015</ixz>
+          <iyy>377.25</iyy>
+          <iyz>-0.0012246</iyz>
+          <izz>307.42</izz>
+        </inertia>
+      </inertial>
+      <collision name='base_link_collision'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://push_lever_base_description/meshes/base_link.STL</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name='base_link_visual'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://push_lever_base_description/meshes/base_link.STL</uri>
+          </mesh>
+        </geometry>
+      </visual>
+    </link>
+  </model>
+</sdf>
