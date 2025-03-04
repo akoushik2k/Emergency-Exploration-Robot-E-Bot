@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/koushik/ROS_programs/Emergency-Exploration-Robot-E-Bot/Ros Code/src/odometry"
+CMAKE_SOURCE_DIR = /home/koushik/ROS_programs/Emergency-Exploration-Robot-E-Bot/E_Bot/src/odometry
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/koushik/ROS_programs/Emergency-Exploration-Robot-E-Bot/Ros Code/build/odometry"
+CMAKE_BINARY_DIR = /home/koushik/ROS_programs/Emergency-Exploration-Robot-E-Bot/E_Bot/build/odometry
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,9 +142,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/koushik/ROS_programs/Emergency-Exploration-Robot-E-Bot/Ros Code/build/odometry/CMakeFiles" "/home/koushik/ROS_programs/Emergency-Exploration-Robot-E-Bot/Ros Code/build/odometry//CMakeFiles/progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/koushik/ROS_programs/Emergency-Exploration-Robot-E-Bot/E_Bot/build/odometry/CMakeFiles /home/koushik/ROS_programs/Emergency-Exploration-Robot-E-Bot/E_Bot/build/odometry//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/koushik/ROS_programs/Emergency-Exploration-Robot-E-Bot/Ros Code/build/odometry/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/koushik/ROS_programs/Emergency-Exploration-Robot-E-Bot/E_Bot/build/odometry/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

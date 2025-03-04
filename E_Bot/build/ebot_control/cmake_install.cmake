@@ -1,8 +1,8 @@
-# Install script for directory: /home/koushik/ROS_programs/Emergency-Exploration-Robot-E-Bot/Ros Code/src/ebot_control
+# Install script for directory: /home/koushik/ROS_programs/Emergency-Exploration-Robot-E-Bot/E_Bot/src/ebot_control
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/koushik/ROS_programs/Emergency-Exploration-Robot-E-Bot/Ros Code/install/ebot_control")
+  set(CMAKE_INSTALL_PREFIX "/home/koushik/ROS_programs/Emergency-Exploration-Robot-E-Bot/E_Bot/install/ebot_control")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -44,30 +44,34 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ebot_control/" TYPE DIRECTORY FILES
-    "/home/koushik/ROS_programs/Emergency-Exploration-Robot-E-Bot/Ros Code/src/ebot_control/launch"
-    "/home/koushik/ROS_programs/Emergency-Exploration-Robot-E-Bot/Ros Code/src/ebot_control/config"
-    "/home/koushik/ROS_programs/Emergency-Exploration-Robot-E-Bot/Ros Code/src/ebot_control/scripts"
+    "/home/koushik/ROS_programs/Emergency-Exploration-Robot-E-Bot/E_Bot/src/ebot_control/launch"
+    "/home/koushik/ROS_programs/Emergency-Exploration-Robot-E-Bot/E_Bot/src/ebot_control/config"
+    "/home/koushik/ROS_programs/Emergency-Exploration-Robot-E-Bot/E_Bot/src/ebot_control/scripts"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/ebot_control" TYPE PROGRAM FILES
-    "/home/koushik/ROS_programs/Emergency-Exploration-Robot-E-Bot/Ros Code/src/ebot_control/scripts/ebot_control.py"
-    "/home/koushik/ROS_programs/Emergency-Exploration-Robot-E-Bot/Ros Code/src/ebot_control/scripts/ebot_teleop.py"
-    "/home/koushik/ROS_programs/Emergency-Exploration-Robot-E-Bot/Ros Code/src/ebot_control/scripts/ebot_nav.py"
-    )
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/ebot_control" TYPE PROGRAM FILES "/home/koushik/ROS_programs/Emergency-Exploration-Robot-E-Bot/E_Bot/src/ebot_control/scripts/ebot_control.py")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/koushik/ROS_programs/Emergency-Exploration-Robot-E-Bot/Ros Code/src/ebot_control/include/ebot_control")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/ebot_control" TYPE PROGRAM FILES "/home/koushik/ROS_programs/Emergency-Exploration-Robot-E-Bot/E_Bot/src/ebot_control/scripts/ebot_teleop.py")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/koushik/ROS_programs/Emergency-Exploration-Robot-E-Bot/Ros Code/build/ebot_control/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/ebot_control")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/ebot_control" TYPE PROGRAM FILES "/home/koushik/ROS_programs/Emergency-Exploration-Robot-E-Bot/E_Bot/src/ebot_control/scripts/ebot_nav.py")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/koushik/ROS_programs/Emergency-Exploration-Robot-E-Bot/Ros Code/build/ebot_control/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/ebot_control")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/koushik/ROS_programs/Emergency-Exploration-Robot-E-Bot/E_Bot/src/ebot_control/include/ebot_control")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/koushik/ROS_programs/Emergency-Exploration-Robot-E-Bot/E_Bot/build/ebot_control/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/ebot_control")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/koushik/ROS_programs/Emergency-Exploration-Robot-E-Bot/E_Bot/build/ebot_control/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/ebot_control")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -75,7 +79,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ebot_control/environment" TYPE FILE FILES "/home/koushik/ROS_programs/Emergency-Exploration-Robot-E-Bot/Ros Code/build/ebot_control/ament_cmake_environment_hooks/ament_prefix_path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ebot_control/environment" TYPE FILE FILES "/home/koushik/ROS_programs/Emergency-Exploration-Robot-E-Bot/E_Bot/build/ebot_control/ament_cmake_environment_hooks/ament_prefix_path.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -83,42 +87,42 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ebot_control/environment" TYPE FILE FILES "/home/koushik/ROS_programs/Emergency-Exploration-Robot-E-Bot/Ros Code/build/ebot_control/ament_cmake_environment_hooks/path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ebot_control/environment" TYPE FILE FILES "/home/koushik/ROS_programs/Emergency-Exploration-Robot-E-Bot/E_Bot/build/ebot_control/ament_cmake_environment_hooks/path.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ebot_control" TYPE FILE FILES "/home/koushik/ROS_programs/Emergency-Exploration-Robot-E-Bot/Ros Code/build/ebot_control/ament_cmake_environment_hooks/local_setup.bash")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ebot_control" TYPE FILE FILES "/home/koushik/ROS_programs/Emergency-Exploration-Robot-E-Bot/E_Bot/build/ebot_control/ament_cmake_environment_hooks/local_setup.bash")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ebot_control" TYPE FILE FILES "/home/koushik/ROS_programs/Emergency-Exploration-Robot-E-Bot/Ros Code/build/ebot_control/ament_cmake_environment_hooks/local_setup.sh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ebot_control" TYPE FILE FILES "/home/koushik/ROS_programs/Emergency-Exploration-Robot-E-Bot/E_Bot/build/ebot_control/ament_cmake_environment_hooks/local_setup.sh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ebot_control" TYPE FILE FILES "/home/koushik/ROS_programs/Emergency-Exploration-Robot-E-Bot/Ros Code/build/ebot_control/ament_cmake_environment_hooks/local_setup.zsh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ebot_control" TYPE FILE FILES "/home/koushik/ROS_programs/Emergency-Exploration-Robot-E-Bot/E_Bot/build/ebot_control/ament_cmake_environment_hooks/local_setup.zsh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ebot_control" TYPE FILE FILES "/home/koushik/ROS_programs/Emergency-Exploration-Robot-E-Bot/Ros Code/build/ebot_control/ament_cmake_environment_hooks/local_setup.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ebot_control" TYPE FILE FILES "/home/koushik/ROS_programs/Emergency-Exploration-Robot-E-Bot/E_Bot/build/ebot_control/ament_cmake_environment_hooks/local_setup.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ebot_control" TYPE FILE FILES "/home/koushik/ROS_programs/Emergency-Exploration-Robot-E-Bot/Ros Code/build/ebot_control/ament_cmake_environment_hooks/package.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ebot_control" TYPE FILE FILES "/home/koushik/ROS_programs/Emergency-Exploration-Robot-E-Bot/E_Bot/build/ebot_control/ament_cmake_environment_hooks/package.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/koushik/ROS_programs/Emergency-Exploration-Robot-E-Bot/Ros Code/build/ebot_control/ament_cmake_index/share/ament_index/resource_index/packages/ebot_control")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/koushik/ROS_programs/Emergency-Exploration-Robot-E-Bot/E_Bot/build/ebot_control/ament_cmake_index/share/ament_index/resource_index/packages/ebot_control")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ebot_control/cmake" TYPE FILE FILES
-    "/home/koushik/ROS_programs/Emergency-Exploration-Robot-E-Bot/Ros Code/build/ebot_control/ament_cmake_core/ebot_controlConfig.cmake"
-    "/home/koushik/ROS_programs/Emergency-Exploration-Robot-E-Bot/Ros Code/build/ebot_control/ament_cmake_core/ebot_controlConfig-version.cmake"
+    "/home/koushik/ROS_programs/Emergency-Exploration-Robot-E-Bot/E_Bot/build/ebot_control/ament_cmake_core/ebot_controlConfig.cmake"
+    "/home/koushik/ROS_programs/Emergency-Exploration-Robot-E-Bot/E_Bot/build/ebot_control/ament_cmake_core/ebot_controlConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ebot_control" TYPE FILE FILES "/home/koushik/ROS_programs/Emergency-Exploration-Robot-E-Bot/Ros Code/src/ebot_control/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ebot_control" TYPE FILE FILES "/home/koushik/ROS_programs/Emergency-Exploration-Robot-E-Bot/E_Bot/src/ebot_control/package.xml")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -129,5 +133,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/koushik/ROS_programs/Emergency-Exploration-Robot-E-Bot/Ros Code/build/ebot_control/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/koushik/ROS_programs/Emergency-Exploration-Robot-E-Bot/E_Bot/build/ebot_control/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

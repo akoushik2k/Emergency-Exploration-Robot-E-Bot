@@ -1,3 +1,6 @@
+source;share/ebot_control/hook/cmake_prefix_path.ps1
+source;share/ebot_control/hook/cmake_prefix_path.dsv
+source;share/ebot_control/hook/cmake_prefix_path.sh
 source;share/ebot_control/local_setup.bash
 source;share/ebot_control/local_setup.dsv
 source;share/ebot_control/local_setup.ps1
